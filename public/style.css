@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#launches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.launch {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.launch h2 {
+    margin: 10px 0;
+}
+
+.launch p {
+    margin: 5px 0;
+}
